@@ -41,7 +41,7 @@ niger = Cocktail("Negroni",[
 ])
 
 her = Cocktail("Hirosima",[
-    Ingredient("Cuantro", 20),
+    Ingredient("Cointreao", 20),
     Ingredient("baileys", 20),
     Ingredient("Xenta", 10),
     Ingredient("grenadine", 5)
@@ -56,4 +56,20 @@ old = Cocktail("Old faschion", [
     Ingredient("VSOP Remy Martin", 45),
     Ingredient("bitter Angosture", 4),
     Ingredient("Sugar syrope", 10)
+])
+
+br = Cocktail("Black russian", [
+    Ingredient("Kahlua", 20),
+    Ingredient("Mamont", 50),
+])
+
+liit = Cocktail("Long island ice tea", [
+    Ingredient("Mamont",15),
+    Ingredient("Bombay saphire",15),
+    Ingredient("Bacardi black",15),
+    Ingredient("Triple sec", 15),
+    Ingredient("Olmeca", 15),
+    Ingredient("Sugar syrope", 30),
+    Ingredient("lemon juice", 25),
+    Ingredient("Coke", 60)
 ])
