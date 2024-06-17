@@ -73,3 +73,30 @@ liit = Cocktail("Long island ice tea", [
     Ingredient("lemon juice", 25),
     Ingredient("Coke", 60)
 ])
+
+SEX = Cocktail("Sex on the beech", [
+    Ingredient("Orange Rich", 40),
+    Ingredient("Fruko Schulz Peach", 40),
+    Ingredient("Mamont", 40),
+    Ingredient("Cramberry Rich", 20)
+])
+
+Hir = Cocktail("Hirosima",[
+    Ingredient("Molinari", 20),
+    Ingredient("Xenta", 20),
+    Ingredient("Baileys", 20),
+    Ingredient("Grenadine", 5)
+])
+
+CL = Cocktail("Cuba Libre", [
+    Ingredient("Coke", 100),
+    Ingredient("Bacardi blanco", 50),
+    Ingredient("Lime Rich", 7)
+])
+
+
+
+
+
+
+
