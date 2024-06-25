@@ -6,7 +6,9 @@ class Cocktail:
         self.name = name
         self.ingredients = ingredients
 
-    def info(self):
-        print(f'Cocktail {self.name}:')
-        print(f'Ingridients: {[ing.info() for ing in self.ingredients]}')
+    def __str__(self):
+        return f'{self.name}: {self.ingredients}'
+
+    def __repr__(self):
+        return self.__str__()
 

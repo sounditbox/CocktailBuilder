@@ -3,9 +3,11 @@ class Ingredient:
         self.name = name
         self.size = size
 
-    def info(self):
+    def __repr__(self):
         return f'{self.name}, {self.size} ml'
 
-#
-# jag = Ingredient('Jagermeister', 50)
-# print(jag.info())
+# sparkled
+# Primary Key - такой столбец в таблице,
+# что по нему можно найти только запись в этой таблице
+
+# Foreign Key - внешний ключ - первыичный ключ из другой таблицы
